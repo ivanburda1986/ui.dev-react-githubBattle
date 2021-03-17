@@ -23,7 +23,7 @@ module.exports = {
     new CopyPlugin(
       {
         patterns:[
-          {from: '_redirects', to: 'dist'}
+          {from: '_redirects'}
         ]
       }
     )
